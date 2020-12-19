@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: product sans;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#back{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 20px 30px;
+}
+
+#left{
+    width: 80%;
+    height: 100%;
+    padding-right: 20px;
+}
+
+
+
+#nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+#nav span{
+    color: orangered;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#orenge{
+    color: orangered !important;
+}
+
+#links a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(107, 107, 107);
+    margin-right: 40px;
+}
+
+#circle{
+    position: absolute;
+    top: -25%;
+    left: 4%;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: orangered;
+}
+
+
+#hero{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(238, 238, 238);
+    padding: 30px;
+    box-shadow: 0 5px 40px rgb(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img{
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(0,-50%);
+    width: 350px;
+
+}
+
+#content{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#line{
+    width: 25px;
+    height: 4px;
+    background-color: orangered;
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
+
+#price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 45px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    padding: 0 10px;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.2);
+}
+
+
+#price button{
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    background-color: black;
+    color: #fff;
+    outline: none;
+}
+
+
+
+#play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border: 1px solid #fff;
+    background-clip: padding-box;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(0, 0, 0,0.1);
+}
+
+#play i{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+#topline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#lefttpl{
+    display: flex;
+    align-items: center;
+}
+
+#lefttpl i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+}
+
+#righttpl{
+    display: flex;
+    align-items: center;
+}
+
+#black{
+    background-color:black;
+}
+
+.ln{
+    width: 20px;
+    height: 4px;
+    border-radius: 100px;
+    background-color: rgb(168, 168, 168);
+    margin-left: 5px;
+}
+
+#other{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 272px;
+    padding: 20px 0px;
+}
+
+.games{
+    width: 32%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    border: 1px solid #fff;
+    background-clip: padding-box;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.games h3{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+}
+
+
+
+.gimg{
+    position: relative;
+    width: 100%;
+    height: 80%;
+    border-radius: 15px;
+}
+
+.ps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(172, 172, 172);
+    background-clip: padding-box;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.2);
+}
+
+.ps h6{
+    color: #fff;
+}
+
+.pss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    padding: 10px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(172, 172, 172);
+    background-clip: padding-box;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.2); 
+}
+
+.pss h6{
+    color: #fff;
+}
+
+.rate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    width: 40px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgb(172, 172, 172);
+    background-clip: padding-box;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.2);
+}
+
+.rate i{
+    color: #fff;
+}
+
+.rate h4{
+    color: #fff;
+}
+
+#valo{
+    background-image: url(https://images.wallpapersden.com/image/download/cool-phoenix-valorant-art_bGZoZW2UmZqaraWkpJRnbmhnrWduaGc.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 20px 50px #fb8e0991;
+}
+
+#leg{
+    background-image: url(https://wallpapercave.com/wp/wp4623701.jpg);
+    background-size: cover;
+    box-shadow: 0 20px 50px #19d2e696;
+}
+
+#assassins{
+    background-image: url(https://4kwallpapers.com/images/wallpapers/assassins-creed-valhalla-vikings-gameplay-2020-games-3840x2230-600.jpg);
+    background-size: cover;
+    background-position: left;
+    box-shadow: 0 20px 50px #ffc471a4;
+}
+
+
+#right{
+    position: relative;
+    width: 20%;
+    height: 90%;
+    border-left: 2px solid rgb(233, 233, 233);
+    margin-top: 20px;
+}
+
+
+#icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: -1%;
+    left:-15px;
+    width: 310px;
+}
+
+#icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: rgb(139, 139, 139);
+    font-size: 13px;
+    border-radius: 10px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 10px 40px rgb(0,0,0,0.2);
+}
+
+#recenews{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#recenewsl{
+    display: flex;
+    align-items: center;
+
+}
+
+#recenewsl #lines{
+    width: 3px;
+    height: 15px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+#recenewsl h4{
+    margin-left: 5px;
+}
+
+#news{
+    position: absolute;
+    top: 18%;
+    width: 100%;
+}
+
+.new{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 130px;
+    background-color: rgb(231, 231, 231);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#newlft1{
+    width: 60%;
+    padding: 10px;
+}
+
+.dash{
+    width: 20px;
+    height: 4px;
+    border-radius: 50px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#newlft1 p{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#newlft1 h5{
+    color: rgb(97, 97, 97);
+}
+
+#newrght1{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(https://wallpapercave.com/wp/wp5029486.jpg);
+    background-size: cover;
+}
+
+#newlft2{
+    width: 60%;
+    padding: 10px;
+}
+
+#newlft2 p{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#newlft2 h5{
+    color: rgb(97, 97, 97);
+}
+
+#newrght2{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(https://specials-images.forbesimg.com/imageserve/5e4094c7f133f400076c0514/960x0.jpg?fit=scale);
+    background-size: cover;
+    background-position: center;
+}
+
+#tpgame{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 67%;
+    width: 100%;
+    height: 40px;
+}
+
+#tpg{
+    display: flex;
+    align-items: center;
+}
+
+#tpgln{
+    width: 3px;
+    height: 15px;
+    background-color: black;
+    margin-right: 5px;
+    border-radius: 100px;
+}
+
+
+#gmlist{
+    position: absolute;
+    top: 75%;
+    width: 100%;
+    margin-left: 30px;
+    
+}
+
+#gmlist li{
+    margin-bottom: 10px;
+}
