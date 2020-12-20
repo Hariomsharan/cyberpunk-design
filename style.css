@@ -57,6 +57,10 @@ html,body{
     margin-right: 40px;
 }
 
+#links a:hover{
+    transform: scale(1.2);
+}
+
 #circle{
     position: absolute;
     top: -25%;
@@ -351,6 +355,10 @@ img{
     border-radius: 10px;
     background-color: rgb(250, 250, 250);
     box-shadow: 0 10px 40px rgb(0,0,0,0.2);
+}
+
+#icons i:hover{
+    transform: scale(1.2);
 }
 
 #recenews{
